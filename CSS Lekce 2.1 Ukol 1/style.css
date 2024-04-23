@@ -1,0 +1,12 @@
+caption {
+  color: red;
+  font-size: 40px;
+  font-weight: bold;
+}
+body {
+  background-color: aqua;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em;
+  font-size: 18px;
+}
