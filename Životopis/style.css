@@ -1,0 +1,67 @@
+.img {
+  width: 40%;
+  border-radius: 5cm;
+}
+h1,
+h2 {
+  text-align: center;
+  color: purple;
+  font-family: "Times New Roman", "Encient German Gothic";
+}
+h1:hover {
+  color: red;
+}
+h2:hover {
+  color: red;
+}
+.udaje {
+  display: inline-block;
+  font-size: 25px;
+}
+hr {
+  border: 2px solid black;
+}
+h2 {
+  font-size: 30px;
+}
+.schrnuti {
+  font-size: 17px;
+}
+p {
+  text-align: justify;
+}
+p:hover {
+  color: white;
+}
+.datum {
+  width: 20%;
+}
+.dejiny {
+  width: 80%;
+}
+.dat {
+  color: blue;
+}
+th {
+  font-size: 20px;
+  color: purple;
+}
+.jmeno {
+  width: 46%;
+  margin: 10px;
+}
+.email {
+  width: 46%;
+  margin: 10px;
+}
+.send {
+  color: white !important;
+  background-color: rgb(114, 199, 114);
+  margin: 10px;
+}
+.zprava {
+  padding-right: 200px;
+  padding-bottom: 80px;
+  margin: 10px;
+  margin-top: 20px;
+}
