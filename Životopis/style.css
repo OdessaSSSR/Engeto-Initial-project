@@ -32,9 +32,12 @@ p {
 }
 p:hover {
   color: white;
+   padding-left: 10px;
+   padding-right: 10px;
 }
 .datum {
   width: 20%;
+   padding-left: 10px;
 }
 .dejiny {
   width: 80%;
@@ -65,3 +68,6 @@ th {
   margin: 10px;
   margin-top: 20px;
 }
+.skill:hover {
+  color: rgb(232, 10, 10);
+  font-weight: bold;
