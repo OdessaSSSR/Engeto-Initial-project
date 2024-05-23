@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+}
+.result {
+  display: flex;
+  flex-direction: column-reverse;
+  color: red;
+  font-size: 30px;
+  margin: 250px auto;
+  text-align: center;
+}
+a {
+  background-color: red;
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-size: 50px;
+  width: 150px;
+  height: 70px;
+  margin-top: 15px;
+}
