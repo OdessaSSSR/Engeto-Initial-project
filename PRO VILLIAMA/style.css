@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*  ----   NEBO DA SE TEN OBRAZEK ULOZIT NA POZADI TIMTO ZPUSOBEM:  ------
+     ----  (ALE UZ JENOM Z ROOT DIRECTORY, ZE SLOZKY NEJDE)  ------
+
+body {
+  background-image: url(default.jpg);
+}
+*/
+
+.cube {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cube-image {
+  width: 122px;
+  height: 122px;
+}
+
+.btn {
+  color: #e5e5e5;
+  background: linear-gradient(#e50914, black);
+  padding: 5px 10px;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.result {
+  height: 80px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.result p {
+  color: #e5e5e5;
+  font-size: 40px;
+}
+
+.reset-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.reset-button a {
+  color: #e5e5e5;
+  background: linear-gradient(#e50914, black);
+  padding: 5px 10px;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
