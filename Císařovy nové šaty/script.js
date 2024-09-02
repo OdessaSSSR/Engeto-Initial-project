@@ -6,7 +6,7 @@ const description = document.querySelector(".description");
 const reset = document.querySelector(".navrat");
 
 const body = document.querySelector("body");
-const cage = document.querySelector(".background");
+const cage = document.getElementById("#background");
 const picture = document.querySelector("img");
 
 const item = document.querySelector(".kus");
@@ -37,9 +37,13 @@ payment.addEventListener("click", () => {
 mode.addEventListener("click", () => {
   document.body.classList.toggle("light-theme");
 
-  // picture.classList.remove(".background");
-  // picture.classList.add(".change");
+  cage.classList.remove("#background");
+  cage.classList.add("#change");
 
-  picture.classList.toggle(".change");
-  console.log(picture.className);
+  // picture.classList.toggle(".change");
+  // console.log(picture.className);
+
+  //cage.style.backgroundImage = "url(images+/lm.jpg)";
+
+  document.getElementById("cage").style.backgroundImage = "url(images+/lm.jpg)";
 });
