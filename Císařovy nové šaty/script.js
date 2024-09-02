@@ -37,13 +37,10 @@ payment.addEventListener("click", () => {
 mode.addEventListener("click", () => {
   document.body.classList.toggle("light-theme");
 
-  cage.classList.remove("#background");
-  cage.classList.add("#change");
-
-  // picture.classList.toggle(".change");
-  // console.log(picture.className);
-
   //cage.style.backgroundImage = "url(images+/lm.jpg)";
 
   document.getElementById("cage").style.backgroundImage = "url(images+/lm.jpg)";
+
+  //cage.classList.remove("#background");
+  //cage.classList.add("#change");
 });
